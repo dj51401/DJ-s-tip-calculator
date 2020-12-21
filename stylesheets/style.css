@@ -1,0 +1,30 @@
+body {
+  background-color: gray;
+  position: relative;
+}
+
+#tip-calculator {
+  position: absolute;
+  margin: auto;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+}
+#tip-calculator .user-input {
+  border: 1px solid black;
+  padding: 7px 5px;
+}
+#tip-calculator .user-input input {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+}
+#tip-calculator #output {
+  padding: 25px;
+  margin: 20px auto;
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

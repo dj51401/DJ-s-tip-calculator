@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+    position: relative;
+}
+
+#tip-calculator{
+    position: absolute;
+    margin: auto;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    .user-input{
+        border: 1px solid black;
+        padding: 7px 5px;
+    }
+    .user-input input{
+        margin: 10px;
+        padding: 5px;
+        border: none;
+    }
+
+    #output{
+        padding: 25px;
+        margin: 20px auto;
+        width: 50%;
+    }
+}
+
